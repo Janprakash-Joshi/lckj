@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-y: scroll;
+}
+
+.gallery-item {
+   
+    width: 50%;
+}
+
+.gallery-item img,
+.gallery-item video {
+    width: 90%;
+    height: auto;
+    border-radius: 25px;
+    margin: 5px;
+}
