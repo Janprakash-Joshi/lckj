@@ -31,6 +31,7 @@ function createGalleryItem(type, url) {
     if (type === "image") {
         const img = document.createElement("img");
         img.src = url;
+        img.alt="Leo Club Of Kathmandu Janmabhumi";
         galleryItem.appendChild(img);
     } else if (type === "video") {
         const video = document.createElement("video");
