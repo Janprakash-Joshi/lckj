@@ -1,3 +1,6 @@
+body{
+    background: #004a84;
+}
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -65,6 +68,7 @@
     --bs-btn-active-color: var(--bs-btn-hover-color);
     --bs-btn-active-bg: #5a23c8;
     --bs-btn-active-border-color: #5a23c8;
+    
 }
 
 .bd-mode-toggle {
@@ -78,15 +82,18 @@
 
 
 .logo{
-  filter: invert();
-  width: 175px;
+    background: #6ab6f1;
+    width: 175px;
+    border-radius: 10px;
+    box-shadow: 13px 14px 1px -3px #2c99ed;
 }
 #showMenu{
     position: fixed;
     z-index: 99;
-    background: #712cf9;
+    background: #2196F3;
     padding: 10px;
     border-radius: 10px;
+    color: white;
     display: none;
 }
 
@@ -100,10 +107,23 @@
     #showMenu{
         display: flex;
     }
+    .logo{
+        margin-top: 3rem;
+    }
+    .carousel-item img{
+        height: 75%;
+        margin-top: 4rem;
+    }
+    .gallery-container{
+        margin-top: 3rem;
+    }
+    .member{
+        margin-top: 3rem;
+    }
 }
 
 #menu{
-    animation: menu 1s 1;
+    animation: menu 1s 1  linear;
 }
 @keyframes menu {
     0%{
