@@ -17,3 +17,30 @@ document.addEventListener('DOMContentLoaded', function () {
 
     scrollableDiv.addEventListener('scroll', fadeInOnScroll);
   });
+
+
+
+
+  // searching
+const cardItemsElement = document.getElementById("scrollableDiv");
+const searchInput = document.getElementById("search-input");
+
+
+function filterItems() {
+    const searchTerm = searchInput.value.trim().toLowerCase().replace(/\s/g, '');
+    const cardItemElements = cardItemsElement.getElementsByClassName("profile-container");
+
+    for (let cardItem of cardItemElements) {
+        const itemNameElement = cardItem.querySelector(".profile-name");
+        const text = itemNameElement.textContent.trim().toLowerCase().replace(/\s/g, '');
+      
+        if (text.includes(searchTerm)) {
+            cardItem.style.display = "block";
+        } else {
+            cardItem.style.display = "none";
+        }
+    }
+}
+
+
+searchInput.addEventListener("input", filterItems);
