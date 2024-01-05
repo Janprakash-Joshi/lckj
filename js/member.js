@@ -1,23 +1,21 @@
 document.addEventListener('DOMContentLoaded', function () {
-    var animatedElements = document.querySelectorAll('.typing-text');
-    var scrollableDiv = document.getElementById('scrollableDiv');
-  
-    function fadeInOnScroll() {
-      console.log('hi');
+  var animatedElements = document.querySelectorAll('.typing-text');
+  var scrollableDiv = document.getElementById('scrollableDiv');
 
-      animatedElements.forEach(function (element) {
-        var scrollPosition = scrollableDiv.scrollTop;
-        var elementPosition = element.offsetTop;
-        element.classList.remove('typing-text1');
-        if (scrollPosition > elementPosition - scrollableDiv.clientHeight + 100) {
-          element.classList.add('typing-text1');
-        }
-      });
-    }
+  var observer = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('typing-text1');
+      } else {
+        entry.target.classList.remove('typing-text1');
+      }
+    });
+  }, { threshold: 0.5 }); // Adjust the threshold as needed
 
-    scrollableDiv.addEventListener('scroll', fadeInOnScroll);
+  animatedElements.forEach(function (element) {
+    observer.observe(element);
   });
-
+});
 
 
 
