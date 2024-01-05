@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     var animatedElements = document.querySelectorAll('.typing-text');
     var scrollableDiv = document.getElementById('scrollableDiv');
-
+  
     function fadeInOnScroll() {
       console.log('hi');
 
