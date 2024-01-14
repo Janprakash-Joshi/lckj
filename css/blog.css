@@ -1,0 +1,19 @@
+.blogmenu{
+    color: white;
+    padding: 2rem;
+}
+.blogmenu img{
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid;
+    margin-right: 8px;
+}
+.blogcontent{
+    padding: 10px;
+    border: 1px solid;
+    margin-top: -2rem;
+}
+.blogcontent p{
+    
+    color: white;
+}
