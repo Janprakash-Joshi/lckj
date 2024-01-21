@@ -160,3 +160,13 @@ a{
 .logos img{
  width: 50px;
 }
+.video{
+width: 0px;
+}
+
+#myVideo{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    padding: 5px;
+}
