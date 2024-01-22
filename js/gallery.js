@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Loop for PNGs
-    for (let i = pngCount; i >=1; i--) {
+    for (let i = pngCount; i>=1; i--) {
         const img = createGalleryItem('image', `/gallery/png/${i}.png`);
         galleryContainer.appendChild(img);
     }
