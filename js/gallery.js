@@ -1,18 +1,18 @@
 document.addEventListener("DOMContentLoaded", function () {
     const galleryContainer = document.getElementById("galleryContainer");
 
-    const imageCount = 21; // Assuming you have 2 images
+    const imageCount = 24; // Assuming you have 2 images
     const pngCount = 3;   // Assuming you have 2 PNG files
     const videoCount = 0; // Assuming you have 2 video files
 
     // Loop for images
-    for (let i = 1; i <= imageCount; i++) {
+    for (let i = imageCount; i>=1; i--) {
         const img = createGalleryItem('image', `/gallery/jpg/${i}.jpg`);    
         galleryContainer.appendChild(img);
     }
 
     // Loop for PNGs
-    for (let i = 1; i <= pngCount; i++) {
+    for (let i = pngCount; i >=1; i--) {
         const img = createGalleryItem('image', `/gallery/png/${i}.png`);
         galleryContainer.appendChild(img);
     }
