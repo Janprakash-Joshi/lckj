@@ -170,3 +170,13 @@ width: 0px;
     position: absolute;
     padding: 5px;
 }
+#soundButton{
+    position: absolute;
+    right: 45px;
+    top: 75px;
+    z-index: 999;
+    cursor: pointer;
+}
+#soundButton svg{
+    color: white;
+}
