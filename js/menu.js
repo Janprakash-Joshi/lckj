@@ -1,7 +1,7 @@
 var showMenu = document.getElementById('showMenu');
 var menu = document.getElementById('menu');
 var myCarousel=document.getElementById('myCarousel');
-var searchDiv=document.getElementById('searchDiv');
+var memberMenu=document.getElementById('memberMenu'); 
 var scrollableDiv=document.getElementById('scrollableDiv');
 
 var counter=0;
@@ -15,8 +15,8 @@ showMenu.onclick = () => {
     if(scrollableDiv){
       scrollableDiv.style.display='none';
     }
-    if(searchDiv){
-      searchDiv.style.display='none';
+    if(memberMenu){
+      memberMenu.style.display='none';
     }
     
     counter++;
@@ -29,8 +29,8 @@ showMenu.onclick = () => {
     if(scrollableDiv){
       scrollableDiv.style.display='flex';
     }
-    if(searchDiv){
-      searchDiv.style.display='block';
+    if(memberMenu){
+      memberMenu.style.display='block';
     }
     counter--;
   }
