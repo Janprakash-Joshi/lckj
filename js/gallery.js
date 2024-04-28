@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const galleryContainer = document.getElementById("galleryContainer");
 
-    const imageCount = 26; 
+    const imageCount = 45; 
     const pngCount = 3;   
     const videoCount = 0; 
 
