@@ -1,1024 +1,340 @@
-<!DOCTYPE html>
-<html lang="en" class="nav-no-js">
-
-<head >
-<style>
-    body{
-        color: white;
-       text-shadow:
-       0.07em 0 black,
-       0 0.07em black,
-       -0.07em 0 black,
-       0 -0.07em black;
-    }
-</style>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Janprakash Joshi's personal Site" />
-
-    <title>Janprakash Joshi</title>
-
-    <link rel="icon" type="image/x-icon" href="top.png" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-      
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
-
-    <link rel="stylesheet" href="https://getbootstrap.com/docs/5.1/dist/css/bootstrap.min.css">
-     
-    <link rel="stylesheet" href="edited.css">
-    <link rel="stylesheet" href="./css/about.css">
-  <link rel="stylesheet" href="./css/contact.css">
-  <link rel="stylesheet" href="./css/services.css">
-    <link rel="stylesheet" href="./css/alert.css">
-    <!-- <link rel="stylesheet" href="./css/bootstrap-slider.min.css"> -->
-    <link rel="stylesheet" href="./css/normalize.min.css">
-    <link rel="stylesheet" href="./css/defaults.css">
-    <link rel="stylesheet" href="./css/nav-core.min.css">
-    <link rel="stylesheet" href="./css/nav-layout.css">
-    <link rel="stylesheet" href="./css/footer.css">
-
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
     
+<head>
+    
+    <link rel="shortcut icon" href="./img/lckj logo.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.118.2">
 
-    <!-- [if lt IE 9]>
-    <link rel="stylesheet" href="css/ie8-core.min.css">
-    <link rel="stylesheet" href="css/ie8-layout.min.css">
-    <script src="js/html5shiv.min.js"></script>
-    <![endif] -->
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="js/rem.min.js"></script>
-    <link rel="stylesheet" href="./css/counter.css">
+    <meta name="keywords" content="Leo Club Of Kathmandu Janmabhumi"/>
+    <meta name="keywords" content="LeoClubOfKathmanduJanmabhumi"/>
+    <meta name="keywords" content="LEO CLUB OF KATHMANDU JANMABHUMI"/>
+    <meta name="keywords" content="Leo Club Of Kathmandu Janmabhumi"/>
+    <meta name="keywords" content="Leo Club Of Kathmandu "/>
+    <meta name="keywords" content="Leo Club "/>
+    <meta name="keywords" content="Leo "/>
+    <meta name="keywords" content="Club"/>
+    <meta name="keywords" content="Kathmandu Janmabhumi"/>
+    <meta name="keywords" content="Janmabhumi"/>
+    <meta name="keywords" content="LCKJ"/>
 
+
+
+    <title>LCKJ</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sidebars/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+   
+    <link rel="stylesheet" href="./css/carousel.css">
+    <link rel="stylesheet" href="./css/carousel.rtl.css">
+    <link href="/css/sidebars.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
 </head>
 
-<body oncontextmenu="return false">
-    <div class="lds-spinner">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-            
-        <br><br><br><br><h3 class="pls">Initializing...</h3>
-    </div>
-    <div class="preloader">
-        <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-ripple" style="background:0 0"><circle cx="50" cy="50" r="4.719" fill="none" stroke="#1d3f72" stroke-width="2"><animate attributeName="r" calcMode="spline" values="0;40" keyTimes="0;1" dur="3" keySplines="0 0.2 0.8 1" begin="-1.5s" repeatCount="indefinite"/><animate attributeName="opacity" calcMode="spline" values="1;0" keyTimes="0;1" dur="3" keySplines="0.2 0 0.8 1" begin="-1.5s" repeatCount="indefinite"/></circle><circle cx="50" cy="50" r="27.591" fill="none" stroke="#5699d2" stroke-width="2"><animate attributeName="r" calcMode="spline" values="0;40" keyTimes="0;1" dur="3" keySplines="0 0.2 0.8 1" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" calcMode="spline" values="1;0" keyTimes="0;1" dur="3" keySplines="0.2 0 0.8 1" begin="0s" repeatCount="indefinite"/></circle></svg>
-       </div>
-<div class="main">
-  
-    <header id="logo">
-  
-        <a href="./pages/index.html"><img src="top.png" alt="" class="fadeInUp  animated"></a>
-        <a href="./pages/index.html"><span id="name">Janprakash Joshi</span></a>
-    </header>
+<body>
+    
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+        <symbol id="check2" viewBox="0 0 16 16">
+            <path
+                d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+        </symbol>
+        <symbol id="circle-half" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" />
+        </symbol>
+        <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+            <path
+                d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z" />
+            <path
+                d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z" />
+        </symbol>
+        <symbol id="sun-fill" viewBox="0 0 16 16">
+            <path
+                d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+        </symbol>
+    </svg>
 
-    <a href="#" class="nav-button">Menu</a>
-
-    <nav class="nav">
-        <ul>
-            <li><a href="./pages/index.html">Home</a></li>
-
-            <li class="//nav-submenu"><a href="./pages/services.html">Services</a>
-                <!-- <ul>
-                <li><a href="#">Some Service</a></li>
-                <li><a href="#">Another Service</a></li>
-                <li><a href="#">Good Service</a></li>
-                <li><a href="#">Room Service</a></li>
-            </ul> -->
-            </li>
-            <!-- <li class="nav-submenu"><a href="#">Products</a>
-            <ul>
-                <li><a href="#">Food</a></li>
-                <li class="nav-submenu"><a href="#">Drinks</a>
-                    <ul>
-                        <li><a href="#">Water</a></li>
-                        <li class="nav-submenu"><a href="#">Cola</a>
-                            <ul>
-                                <li class="nav-submenu nav-left"><a href="#">Coca Cola</a>
-                                    <ul>
-                                        <li><a href="#">This one goes left!</a></li>
-                                        <li><a href="#">Too much sugar...</a></li>
-                                        <li><a href="#">Yummy</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Pepsi</a></li>
-                                <li><a href="#">River</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Lemonade</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Candy</a></li>
-                <li><a href="#">Ice Cream</a></li>
-            </ul>
-        </li> -->
-            <li><a href="./pages/contact.html">Contact Us</a></li>
-            <!-- <ul>
-                <li><a href="#">Christmas</a></li>
-                <li><a href="#">New Year</a></li>
-                <li><a href="#">Easter</a></li>
-            </ul> -->
-            <li class="//nav-submenu"><a href="/pages/blog.html">Blog</a>
-            </li>
-
-            
-        </ul>
-    </nav>
-
-    <a href="#" class="nav-close">Close Menu</a>
-
-
-<!-- slider  -->
-           
-    <div id="carouselExampleDark" class="carousel carousel-dark slide fadeInUp  animated" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item carousel-item1 active" data-bs-interval="10000">
-                <div class="slideimg imgslide1"> 
-                </div>
-                
-                <div class="carousel-caption  d-md-block">
-                    <h1 class="orange">Welcome</h1>
-                    <p class="slid-p">Let's Build Something !<br>Now You can also explore blog here.<br><i class="icon-world"></i></h1></p>
-
-                </div>
-            </div>
-            <div class="carousel-item carousel-item1" data-bs-interval="4000">
-
-                <div class="slideimg imgslide2">
-                    
-                </div>
-               
-                <div class="carousel-caption  d-md-block">
-                    <h1 class="orange">Achieve Your Dreams</h1>
-                    <a href="./pages/blog.html" class="slide-btn">Explore Blog
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                      </a>
-                    <p class="slid-p">The more that you read, the more things you will know, the more that you learn, the more places you’ll go  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
-                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                        <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
-                      </svg></p>
-                </div>
-            </div>
-            <div class="carousel-item carousel-item1">
-                <div class="slideimg imgslide3">
-                    
-                </div>
-                <div class="carousel-caption  d-md-block">
-                    <h1 class="orange">Lets talk about everything!</h1>
-                    <a href="#container-contact" class="slide-btn">Contact Us
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                      </a>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+        <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button"
+            aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
+            <svg class="bi my-1 theme-icon-active" width="1em" height="1em">
+                <use href="#circle-half"></use>
+            </svg>
+            <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-        crossorigin="anonymous"></script>
- 
- <!-- slider  -->
-
-<!-- says -->
-<!-- <div class="mt">
-  <h3 class="typewritter"><strong class="success">"</strong>Someone’s sitting in the shade today because someone 
-    planted a tree a long time ago.<strong class="success">"</strong><strong> –Warren Buffet</strong></h3> -->
-<!-- time -->
-<script>function display_ct6() {
-  var x = new Date()
-  var ampm = x.getHours( ) >= 12 ? ' PM' : ' AM';
-  hours = x.getHours( ) % 12;
-  hours = hours ? hours : 12;
-  var x1=x.getMonth() + 1+ "/" + x.getDate() + "/" + x.getFullYear(); 
-  x1 = x1 + " - " +  hours + ":" +  x.getMinutes() + ":" +  x.getSeconds() + ":" + ampm;
-  document.getElementById('ct6').innerHTML = x1;
-  display_c6();
-   }
-   function display_c6(){
-  var refresh=1000; // Refresh rate in milli seconds
-  mytime=setTimeout('display_ct6()',refresh)
-  }
-  display_c6()
-  </script>
-  <div id='ct6' style="  font-weight: bold; font-size: 3rem; "></div>
-  <div onload=display_ct();>
-  <div id='ct' ></div>
-  </div>
-  <!-- time -->
-    
-  
-   <!-- says -->
-  
-   <!-- about -->
-   <div class="p-4 abt-bg">
-    <div class="row page-header wow fadeInUp  animated" style="visibility: visible; animation-name: fadeInUp;">
-      <h1 style="margin-bottom: 0px;" >    ABOUT ME  </h1>
-                  <div class="abt-border"></div>
-      </div>
-    
-    
-    <div class="d-flex abt-cnt reveal fade-bottom ">
-      <div class="col-md-4 col-sm-7 basic-info wow fadeInUp  animated  " style="visibility: visible; animation-name: fadeInUp;">
-        <!-- About Name -->
-       
-        <!-- About Bio -->
-        <h1 class="font-big"><b>Janprakash</b><span class="success">.</span></h1>
-        <p>Namaste, I am Janprakash, born and brought up in Nepal. Student of bachelore level and I am also a Junior Web Developer. I enjoy using my skills to contribute to the exciting technological advances that happen every day. Initially I'd like to let you know guys how glad I am to see you here and it's sweet of you to come over !</p>
-       
-       
-        <ul class="info-list">
-        <!-- About info -->
-        <li>
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-map" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.502.502 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103zM10 1.91l-4-.8v12.98l4 .8V1.91zm1 12.98 4-.8V1.11l-4 .8v12.98zm-6-.8V1.11l-4 .8v12.98l4-.8z"/>
-          </svg><span> Baneshwor, Kathmandu,Nepal</span>
-        </li>
-        <li>
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
-            <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
-          </svg><a href="https://www.jpjoshi.com.np" target="_blank"> www.jpjoshi.com.np</a>
-        </li>
+        <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+            <li>
+                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light"
+                    aria-pressed="false">
+                    <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em">
+                        <use href="#sun-fill"></use>
+                    </svg>
+                    Light
+                    <svg class="bi ms-auto d-none" width="1em" height="1em">
+                        <use href="#check2"></use>
+                    </svg>
+                </button>
+            </li>
+            <li>
+                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark"
+                    aria-pressed="false">
+                    <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em">
+                        <use href="#moon-stars-fill"></use>
+                    </svg>
+                    Dark
+                    <svg class="bi ms-auto d-none" width="1em" height="1em">
+                        <use href="#check2"></use>
+                    </svg>
+                </button>
+            </li>
+            <li>
+                <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto"
+                    aria-pressed="true">
+                    <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em">
+                        <use href="#circle-half"></use>
+                    </svg>
+                    Auto
+                    <svg class="bi ms-auto d-none" width="1em" height="1em">
+                        <use href="#check2"></use>
+                    </svg>
+                </button>
+            </li>
         </ul>
-        </div>
-  
-        <div class="col-md-4 col-sm-5 profile-photo wow fadeInUp  animated" style="visibility: visible; animation-name: fadeInUp;">
-          <!-- Avatar -->
-          <img alt="Me" src="./img/abt.svg" class="img-fluid">
-          </div>
-        
-          <div class="fadeInUp  animated" style="visibility: visible; animation-name: fadeInUp;">
-            <h1 class="title">My Professional Skills</h1>
-            <ul>
-              <p class="skill-text"> I enjoy using my skills to contribute to the exciting technological advances that happen every day. I am currently studying at Nepal College Of Information Technology, Kathmandu,Nepal. </p>
-              <div class="social-link" style="margin: 0;padding: 10px 0;text-align: center;">
-              <!-- About Social Links -->
-          
-              </div>
-              <div class="progress-bar-area">
-              <!--About Skills -->
-              <div class="single-bar">
-              <div class="skill-info">
-             <li><span class="skill-title">Web Design</span><!--Skills Name-->
-              <span class="skill-percent">90%</span><!--Skills Percentage--></li> 
-              </div>
-              <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 90%;"></div><!--Change Skills Percentage-->
-              </div>
-              </div>
-              <!--Single Skills Bar-->
-              <div class="single-bar">
-              <div class="skill-info">
-              <li><span class="skill-title">Web Development</span><!--Skills Name-->
-              <span class="skill-percent">70%</span><!--Skills Percentage--></li>
-              </div>
-              <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 70%;"></div><!--Change Skills Percentage-->
-              </div>
-              </div>
-              <!--Single Skills Bar-->
-              <div class="single-bar">
-              <div class="skill-info">
-             <li><span class="skill-title">App Development</span><!--Skills Name-->
-              <span class="skill-percent">50%</span><!--Skills Percentage--></li> 
-              </div>
-              <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 50%;"></div><!--Change Skills Percentage-->
-              </div>
-              </div>
-              <!--Single Skills Bar-->
-              <div class="single-bar">
-              <div class="skill-info">
-              <li><span class="skill-title">Wordpress</span><!--Skills Name-->
-              <span class="skill-percent">60%</span><!--Skills Percentage--></li>
-              </div>
-              <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 60%;"></div><!--Change Skills Percentage-->
-              </div>
-              </div>
-              </div>
-              </div>
-           
-      </div>
-            
-            
-  </div>
-   <!-- about -->
-   <!-- <div class="about-cnt"> -->
-   <!-- about --> 
-   <!-- <div class="container-about" id="container-about">
-      <div class="child-about">
-         
-        
-         <br>
-        <h2 class="abt-heading">Hello World ! <i class="fas fa-globe"></i></h2>
-        <br>
-        
-          <img src="./img/joshi.png" alt="" class="abt-img">
-  
-          <p>Namaste, I am Janprakash, born and brought up in Nepal. Initially I'd like to let you know guys how glad I am to see you here and it's sweet of you to come over !</p>
-          <h2><b>Feel free to ask us anything !</b></h2>
-          <a href="#container-contact" class="abt-btn">Get Started
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </a>
-      </div>
-   </div> -->
-   
-  
-    
-     
-    <!-- </div> -->
-    <!-- update -->
-     <div class="update reveal fade-left">
-         <br>
-      <h1>Latest Update</h1>
-      <p>Every week we publish exclusive content on various topics.</p>
-      <a href="./pages/blog.html"><button class="glow-on-hover" type="button">View All</button></a>
+    </div> -->
+
+
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+        <symbol id="bootstrap" viewBox="0 0 118 94">
+            <title>LCKJ</title>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z">
+            </path>
+        </symbol>
+        <symbol id="home" viewBox="0 0 16 16">
+            <path
+                d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z" />
+        </symbol>
+        <symbol id="speedometer2" viewBox="0 0 16 16">
+            <path
+                d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4zM3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 10a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 10zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 9.31a.91.91 0 1 0 1.302 1.258l3.434-4.297a.389.389 0 0 0-.029-.518z" />
+            <path fill-rule="evenodd"
+                d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A7.988 7.988 0 0 1 0 10zm8-7a7 7 0 0 0-6.603 9.329c.203.575.923.876 1.68.63C4.397 12.533 6.358 12 8 12s3.604.532 4.923.96c.757.245 1.477-.056 1.68-.631A7 7 0 0 0 8 3z" />
+        </symbol>
+        <symbol id="table" viewBox="0 0 16 16">
+            <path
+                d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm15 2h-4v3h4V4zm0 4h-4v3h4V8zm0 4h-4v3h3a1 1 0 0 0 1-1v-2zm-5 3v-3H6v3h4zm-5 0v-3H1v2a1 1 0 0 0 1 1h3zm-4-4h4V8H1v3zm0-4h4V4H1v3zm5-3v3h4V4H6zm4 4H6v3h4V8z" />
+        </symbol>
+        <symbol id="people-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+            <path fill-rule="evenodd"
+                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+        </symbol>
+        <symbol id="grid" viewBox="0 0 16 16">
+            <path
+                d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z" />
+        </symbol>
+    </svg>
+
+
+     <div id="showMenu">
+        <span>Menu</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+          </svg>
      </div>
-    <!-- update -->
-  
-  <!-- myintro -->
-  <!-- <div class="flex myintro">
-    <div class="width-100">
-       <h3><b>It's me</b></h3> 
-       <h1 class="font-big"><b>Janprakash</b><span class="success">.</span></h1>
-       <h4>Student of bachelore level and I am also a Junior Web Developer. I enjoy using my skills to contribute to the exciting technological advances that happen every day. I started school when I was six-years-old. While I was at school-level, I won an award for perfect attendence, Project on basic programming languages like C, and won an award for district level Vollyball Match. I am currently studying at Nepal College Of Information Technology, Kathmandu,Nepal.</h4>
-  
-    </div>
-  
-     <div class="border-radious">
-        <img src="./img/jp.png" alt="" class="img-fluid">
-    </div>
-  </div> -->
-  <!-- myintro -->
-       
-  
-  <!-- Services -->
-  
-  
-  <div class=" bg-1">
-  
-    <div class="container-services">
-        <div class="details">
-          <h2>Our Services</h2>
-          <p>We provide services related to development and design.<br>Feel free to contact us.</p>
-        </div>
-        <div class="main-box">
-          <div class="box box-grey reveal fade-bottom">
-            <div class="icon">
-              <i class="fas fa-desktop"></i>
-            </div>
-            <h2><b>WebDesign</b></h2>
-            
-            <p>Make a statement with modern web design services designed to grow your business.</p>
-            <a href="#container-contact">Read More</a>
-          </div>
-    
-          <div class="box box-red reveal fade-bottom">
-            <div class="icon">
-              <i class="fas fa-globe"></i>
-            </div>
-            <h2><b>App development</b></h2>
-            
-            <p >We offer impactful mobile app development services to bring your project to market on every device and platform. </p>
-            <a href="#container-contact" class="white-border">Read More</a>
-          </div>
-          
-          <div class="box box-grey reveal fade-bottom">
-            <div class="icon">
-              <i class="fas fa-book-open"></i>
-            </div>
-            <h2><b>Blog</b></h2>
-            
-            <p>You can read many blog written by us in our blog section let's explore...</p>
-            <a href="./pages/blog.html">Read More</a>
-          </div>
-    
-        </div>
-    
-      </div>
-    </div>
-    
-  <!-- Services -->
-  
-  
-  <!-- counter -->
-  <div class="abtbg">
-  <div id="counter">
-    <h1><b >Achievement</b></h1>
-  
-    <div class="counter-value" data-count="30">0</div>
-    <h2><b>Great Projects</b></h2>
-    <br>
-    <div class="counter-value" data-count="40">0</div>
-    <h2><b>Cups Of Coffee</b></h2>
-    <br>
-    <div class="counter-value" data-count="25">0</div>
-    <h2><b>Happy Customers</b></h2>
-    <br>
-    <div class="counter-value" data-count="15">0</div>
-    <h2><b>On Going</b></h2>
-   
-  </div>
-</div>
-  <script>
-    var a = 0;
-  $(window).scroll(function() {
-    
-  var oTop = $('#counter').offset().top - window.innerHeight;
-  if (a == 0 && $(window).scrollTop() > oTop) {
-  $('.counter-value').each(function() {
-  var $this = $(this),
-   countTo = $this.attr('data-count');
-  $({
-   countNum: $this.text()
-  }).animate({
-     countNum: countTo
-   },
-  
-   {
-  
-     duration: 10000,
-     easing: 'swing',
-     step: function() {
-       $this.text(Math.floor(this.countNum));
-     },
-     complete: function() {
-       $this.text(this.countNum);
-       //alert('finished');
-     }
-  
-   });
-  });
-  a = 1;
-  }
-  
-  });
-  </script>
-  <!-- counter -->
-   <!-- Testimonials -->
-  
-   <div style="margin-top: -27px; background-color: #111;">
-    <center><h1>Testimonials</h1></center>
-    <div class="flex m-4">
-      <div class="Testimonials reveal fade-bottom">
-        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
-     <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z"/>
-     </svg>
-        <p>I don't have words to thank this man, I'm really grateful to work with him. 
-          If you're plannig to get in thouch with him then you can trust this guy and 
-          can put your time into his content and services. I can assure you that it'll be worth it.</p>
-          <b>####</b>
-      </div>
-      <div class="Testimonials reveal fade-bottom">
-        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
-     <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z"/>
-     </svg>
-        <p>For everyone who are looking for grate services and content then your are at perfect place
-          just go for it. You can trust and can spend your valuable time for services they provide. I feel incredible, I feel motivated with the 
-          services I was served.
-        </p>
-          <b>####</b>
-      </div>
-    </div>
-    </div>
-  
-    <!-- Testimonials -->
-     
-    <div class="psay">
-      <div class="row"  style=" min-height: 32rem !important; width: 100%;">
-      <h3 style=" text-align: center; font-weight: bold;">What People Say</h3>
-       <p style="text-align: center;">Let's listen what people say.</p>
 
-      
-      <div id="carouselExampleSlidesOnly" class="carousel slides" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <center>
-              <h1 class="black">John</h1>
-              <img src="./img/person1.jpg" class="d-block slideimg1" alt="...">
-              <p class="black">Clean and quality design and full support for any kind of request! Great theme!</p>
-            </center>
-            
-          </div>
-          <div class="carousel-item">
-            <center>
-              <h1 class="black">Anna</h1>
-              <img src="./img/person2.jpg" class="d-block slideimg1" alt="...">
-              <p class="black">Customization is very easy, Great theme! Thank you Joshi.</p>
-            </center>
-            
-          </div>
-          
-        </div>
-      </div>
-    </div>
-    <h3><strong><center>Get Free Templates Designed by me</center></strong></h3>
-    <div>
-      <center>
-        <a href="./projects/1/index.html" target="_blank"><i class="bi bi-chevron-double-right"></i><button>Preview</button></a>
-       
-      </center>
-      
-    </div>
-    </div>
-      
-    <div class="offer reveal fade-left" >
-      <h2> <strong>Make your dream come true</strong> </h2>
-      <br>
-      <br>
-      <p> We have collected for you the best offers at the best price. Don't miss your chance for the best offer of your life!</p>
-      <br>
-      <br>
-      <br>
-      <br>
-      <a href="./pages/contact.html#sms"><button class="glow-on-hover" type="button">SEE OFFER</button></a>
-    </div>
-    
-  <!-- help -->
-  <div class="bg-dark text-secondary px-4 py-5 text-center">
-    <div class="py-5">
-      <h1 class="display-5 fw-bold text-white">How Can I Help You ?</h1>
-      <div class="col-lg-6 mx-auto">
-        <p class="fs-5 mb-4" style="text-shadow: none;">We are available for you here anytime you need. I personally will response your mail if have any question. You can also call me here directly to my phone number or write a message.</p>
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <a href="tel:9825690510"><button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Call Me<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-          </svg></button></a>
-         <a href="#container-contact"><button type="button" class="btn btn-outline-light btn-lg px-4">Contacts <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16">
-          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
-        </svg></button></a> 
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- help -->
-   
-  <!-- <br>
-  <div class="bg-banner">
-    <div>
-     <h3 class="typewritter2"></strong><i>Scroll for more..</i> </strong></h3>
-    </div>
-    </div> -->
-  <!-- <div class="bg-banner1">
-    <span><br></span>
-    </div> -->
-  <!-- section -->
-  <!-- <div class="say-container reveal fade-bottom">
-    <img src="./img/jpjp.jpg" alt="img" style="width:100%;" class="opa">
-    
-    <div class="centered">
-        <h3>Even algorithm says..</h3>
-        <h3>Facing Problem is not a solution</h3>
-        <h3>But ignorance is a key</h3>
-    </div>
-   
-  </div> -->
-  
-  
-  <!-- section -->
-  
-  
-  <!-- skills -->
-  <!-- <div>
-    <div class="skills">
-    
-      <div class="p-5">
-     
-        <h1><center><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-tools" viewBox="0 0 16 16">
-          <path d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.356 3.356a1 1 0 0 0 1.414 0l1.586-1.586a1 1 0 0 0 0-1.414l-3.356-3.356a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0zm9.646 10.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708zM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11z"/>
-        </svg> <strong>The Skills</strong></center></h1>
-        <hr id="contact-hr">
-      
-        <ul><b><li>JAVA</li></b></ul>
-          <div class="meter animate">
-            <span style="width: 30%"><span>
-          </div>
-      
-         <ul><b><li>C</li></b></ul>
-        <div class="meter yellow">
-            <span style="width: 100%"></span>
-          </div>
-      
-          <ul><b><li>C++</li></b></ul> 
-          <div class="meter orange">
-            <span style="width:80%"></span>
-          </div>
-      
-          <ul><b><li>Python</li></b></ul> 
-          <div class="meter blue">
-            <span style="width:20%"></span>
-          </div>
-      
-          <ul><b><li>JavaScript</li></b></ul>
-          <div class="meter animate">
-            <span style="width: 50%"><span>
-          </div>
-      
-          <ul><b><li>PHP</li></b></ul> 
-          <div class="meter orange">
-            <span style="width:20%"></span>
-          </div>
-      
-          <ul><b><li>HTML</li></b></ul>
-          <div class="meter red">
-            <span style="width: 90%"></span>
-          </div>
-      
-          <ul><b><li>CSS</li></b></ul>
-          <div class="meter animate">
-            <span style="width: 70%"><span>
-          </div>
-      
-          <ul><b><li>React</li></b></ul>
-          <div class="meter blue">
-            <span style="width: 30%"><span>
-          </div>
-      
-          <ul><b><li>Bootstrap</li></b></ul>
-          <div class="meter animate">
-            <span style="width: 60%"><span>
-          </div>
-        
-        </div>
-    </div>
-  </div> -->
-  
-  
-  <!-- skills -->
-  
-  <!-- section -->
-   
 
-  <div class="say-container pad bulb reveal fade-left">
-    <img src="./img/3.png" alt="img"  class="">
-  </div>
-    <div style="text-align: center;">
-      <div>
-        <a href="#container-contact"><i class="bi bi-chevron-double-down jpjp" style="font-weight: bold; font-size: 5rem; "></i></a>
-       </div>
-       
-       
-     </div> 
-    <!-- <div class="centered">
-        <h3 class="typewritter1"><strong class="success">"</strong><i>Build your own dreams-------</i><strong class="success">"</strong></h3>
-    </div> -->
-    
-    <!-- <div class="bottom-right">Bottom Right</div> -->
-   
-  
-  <!-- section -->
-  
-   <!-- contact --> 
-   <div class="container-contact mt-45 " id="container-contact">
-   <h1><strong>Contact Us</strong></h1>
-   <hr id="contact-hr">
-   <h3>Have any questions? We'd love to hear from you</h3>
-   <div class="contact-items">
-       <div class="customer-care reveal fade-bottom">
-           <h3>Our Team</h3>
-           <p>We will respond your message as soon as possible.</p>
-           <p>Yor feedbak are more valuable for us.</p>
-           <a href="mailto:janprakash.192011@ncit.edu.np"><button id="cust-care"> Feedback</button></a>
-           <!-- <a href="#"> Frequently asked Questions</a> -->
-       </div>
-       <div class="write-us reveal fade-bottom">
-           <h3>Write Us</h3>
-           <p> Please write us E-mail and let's talk about anything ! We will response your mail instantly.</p>
-          <a href="mailto:janprakash.192011@ncit.edu.np"> <button id="write">Write</button></a>
-     <!-- <a href="./contact-form.html"> <button id="write">Write</button></a>  u-->
-       </div>
-       <div class="sales-market reveal fade-bottom">
-           <h3> Social Media</h3>
-           <p>Get in touch with us here in social medias.</p>
-           <center class="social">
-               <a href="https://www.instagram.com/janprakash_joshi/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="25"
-                       height="25" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                       <path
-                           d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                   </svg></a>
-   
-               <a href="https://www.facebook.com/janprakash.jp" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="25"
-                       height="25" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-                       <path
-                           d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                   </svg></a>
-               <a href="https://www.twitter.com/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
-                   <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
-                 </svg></a>
-                 <a href="https://www.tiktok.com/@jaypeejoshi" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
-                  <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"/>
-                </svg></a> 
-                <a href="https://www.quora.com/profile/J-P-V%C3%A3%C4%AF" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-quora" viewBox="0 0 16 16">
-                   <path d="M8.73 12.476c-.554-1.091-1.204-2.193-2.473-2.193-.242 0-.484.04-.707.142l-.43-.863c.525-.45 1.373-.808 2.464-.808 1.697 0 2.568.818 3.26 1.86.41-.89.605-2.093.605-3.584 0-3.724-1.165-5.636-3.885-5.636-2.68 0-3.839 1.912-3.839 5.636 0 3.704 1.159 5.596 3.84 5.596.425 0 .811-.046 1.166-.15Zm.665 1.3a7.127 7.127 0 0 1-1.83.244C3.994 14.02.5 11.172.5 7.03.5 2.849 3.995 0 7.564 0c3.63 0 7.09 2.828 7.09 7.03 0 2.337-1.09 4.236-2.675 5.464.512.767 1.04 1.277 1.773 1.277.802 0 1.125-.62 1.179-1.105h1.043c.061.647-.262 3.334-3.178 3.334-1.767 0-2.7-1.024-3.4-2.224Z"/>
-                 </svg></a>
-                 
+
+
+
+    <main class="d-flex flex-nowrap">
+        <h1 class="visually-hidden">LEO</h1>
+
+        <div class="flex flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 210px;" id="menu">
+           <img src="./img/lckj logo.png" alt="" class="logo">
+            <hr>
+            <ul class="nav nav-pills flex-column mb-auto">
+                <li class="nav-item">
+                    <a href="./index.html" class="nav-link active" aria-current="page">
+                        <svg class="bi pe-none me-2" width="16" height="16">
+                            <use xlink:href="#home"/>
+                        </svg>
+                        Home
+                    </a>
+                </li>
+                
+
+                <li>
+                    <a href="./pages/gallery.html" class="nav-link text-white">
+                        <svg class="bi pe-none me-2" width="16" height="16">
+                            <use xlink:href="#grid" />
+                        </svg>
+                        Gallery
+                    </a>
+                </li>
+                <li>
+                    <a href="./pages/members.html" class="nav-link text-white">
+                        <svg class="bi pe-none me-2" width="16" height="16">
+                            <use xlink:href="#people-circle" />
+                        </svg>
+                      Our Team
+                    </a>
+                </li>
+
+
+                <li id="ReportBtn">
+                    <a href="" class="nav-link text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-text-fill me-2" viewBox="0 0 16 16">
+                            <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1z"/>
+                          </svg>
+                       View Report
+                    </a>
+                </li>
+
+
+                <li>
+                    <a href="./pages/blog.html" class="nav-link text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-substack me-2" viewBox="0 0 16 16">
+                            <path d="M15 3.604H1v1.891h14v-1.89ZM1 7.208V16l7-3.926L15 16V7.208zM15 0H1v1.89h14z"/>
+                          </svg>
+                      Blogs
+                    </a>
+                </li>
+
+
+                <li>
+                    <a href="https://bit.ly/LeoClubOfKathmanduJanmabhumi" class="nav-link text-white" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-heart pe-none me-2" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.965 12.695a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6c0 3.193-3.004 6-7 6a8.06 8.06 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a10.97 10.97 0 0 0 .398-2m-.8 3.108.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.437 10.437 0 0 1-.524 2.318l-.003.011a10.722 10.722 0 0 1-.244.637c-.079.186.074.394.273.362a21.673 21.673 0 0 0 .693-.125ZM8 5.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
+                        </svg>
+                       Join Us
+                    </a>
+                    
+                </li>
+
+                <li>
+                    <a href="mailto:leoclubofkathmandujanmabhumi@gmail.com" class="nav-link text-white" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope me-2" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                        </svg>
+                        Mail Us <p class="email">leoclubofkathmandu</p><p class="email">janmabhumi@gmail.com</p>
+                    </a>
+                    
+                    
+                </li>
                
-           </center>
-           <!-- <button id="sales">Contact Sales</button>
-           <a href="#">View Plans</a> -->
-  
-       </div>
-   </div>
-  </div>
-  <div class="p-5 contactform reveal fade-bottom bg-1">
-    <div class="mb-3">
-      <label for="exampleFormControlInput1" class="form-label">Email address</label>
-      <input type="email" class="form-control message" id="exampleFormControlInput1" placeholder="name@example.com">
-    </div>
-    <div class="mb-3">
-      <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-      <textarea class="form-control message" id="exampleFormControlTextarea1" rows="10" placeholder="Enter your message here..."></textarea>
-    </div>
-    <div class="">
-      <button class="glow-on-hover" type="button" onclick="alert('OPPS! Currently we are not recieving direct message please E-mail us');">Submit</button>
-    </div>
-  </div>
-  <!-- contact -->
-  
-
-
-
-  <button onclick="topFunction()" id="myBtn" title="Go to top"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
-    <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
-  </svg></button>
-  
- 
-
-    <!-- footer -->
-
-    <footer class="py-10 homefooter footerimg">
-        <div class="row  mt-5" >
-          <!-- <div class="col-2">
-            <h5>Section</h5>
-            <ul class="footer flex-column">
-              <li class="footer-item mb-2"><a href="#" class="footer-link p-0 text-muted">Home</a></li>
-              <li class="footer-item mb-2"><a href="#" class="footer-link p-0 text-muted">Features</a></li>
-              <li class="footer-item mb-2"><a href="#" class="footer-link p-0 text-muted">Pricing</a></li>
-              <li class="footer-item mb-2"><a href="#" class="footer-link p-0 text-muted">FAQs</a></li>
-              <li class="footer-item mb-2"><a href="#" class="footer-link p-0 text-muted">About</a></li>
             </ul>
-          </div> -->
-    
-          <div class="col-2">
-            <!-- <h5>Section</h5> -->
-            <ul class="footer flex-column">
-              <li class="footer-item mb-2"><a href="./pages/index.html" class="footer-link p-0 text-muted">Home</a></li>
-              <li class="footer-item mb-2"><a href="./pages/services.html" class="footer-link p-0 text-muted">Services</a></li>
-              <!-- <li class="footer-item mb-2"><a href="#" class="footer-link p-0 text-muted"></a></li> -->
-              <li class="footer-item mb-2"><a href="#container-about" class="footer-link p-0 text-muted">FAQs</a></li>
-              <li class="footer-item mb-2"><a href="#container-about" class="footer-link p-0 text-muted">About</a></li>
-            </ul>
-          </div>
-    
-          <div class="col-2">
-            <!-- <h5>Section</h5> -->
-            <ul class="footer flex-column">
-              <li class="footer-item mb-2"><a href="./pages/contact.html" class="footer-link p-0 text-muted">Contact Us</a></li>
-              <li class="footer-item mb-2"><a href="./pages/blog.html" class="footer-link p-0 text-muted">Blogs</a></li>
-              <!-- <li class="footer-item mb-2"><a href="#" class="footer-link p-0 text-muted">Pricing</a></li>
-              <li class="footer-item mb-2"><a href="#" class="footer-link p-0 text-muted">FAQs</a></li>
-              <li class="footer-item mb-2"><a href="#" class="footer-link p-0 text-muted">About</a></li> -->
-            </ul>
-          </div>
-    
-          <div class="col-4 offset-1 ">
-            <form>
-              <h4>Subscribe to our newsletter</h4>
-              <p>Monthly digest of what's new and exciting from us.</p>
-              <div class="d-flex w-100 gap-2 end">
-                <label for="newsletter1" class="visually-hidden">Email address</label>
-                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                <button class="btn btn-primary" type="button" onclick="alert('Thanks ! Please Send Me a E-mail');">Subscribe</button>
-              </div>
-            </form>
-          </div>
+            <hr>
+            <div class="flex logos">
+               <img src="./img/lions logo.png" alt="">
+               <img src="./img/leo logo.png" alt="">
+               <img src="./img/lckj logo.png" alt="">
+               <img src="./img/Transparent PNG Logo.png" alt="">
+            </div>
+            <hr>
+            <div >
+                <a href="https://www.facebook.com/LeoClubOfKTMJanmabhumi" target="_blank"><center>Leo Club Of Kathmandu Janmabhumi <br>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                      </svg>
+                </center></a>
+            </div>
         </div>
 
-        <!-- <div class="lstimg  reveal fade-left">
-          <img class="img-fluid" src="../img/jpjp.svg" style="max-height: 600px;">
-        </div> -->
-    
-        <div class=" border-top end">
-          
-          <div><center style="font-size: 15px;">
-            Copyright <span class="copyright">&copy;</span>Janprakash Joshi.All Rights Reserved.
-          </center></div>
-          <div class="social" style="text-align: center;">
-              <a href="https://www.instagram.com/janprakash_joshi/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="25"
-                  height="25" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                  <path
-                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-              </svg></a>
-  
-          <a href="https://www.facebook.com/janprakash.jp" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="25"
-                  height="25" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-                  <path
-                      d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-              </svg></a>
-          
-          
-           </div>
-          <!-- 
-          <ul class="list-unstyled d-flex">
-              <a href="https://www.facebook.com/janprakash.jp" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="25"
-                  height="25" fill="currentColor" class="bi bi-facebook m5" viewBox="0 0 16 16">
-                  <path
-                      d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-              </svg></a>
-  
-              <a href="https://www.instagram.com/janprakash_joshi/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="25"
-                  height="25" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                  <path
-                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-              </svg></a> -->
-  
-            <!-- <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
-            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
-           -->
-          </ul>
-        </div>
-      </footer>
-    
-  <!-- footer -->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="./js/nav.jquery.min.js"></script>
-    <script>
-        $('.nav').nav();
-    </script>
-</div>
-<script>
-    setTimeout(abc,4000)
-    function abc() {
-        
-        document.querySelector('.lds-spinner').style.display = 'none';
-        document.querySelector('.main').style.display = 'block';
+        <div class="b-example-divider b-example-vr"></div>
        
-    }
-    
-</script>
-<script>
-    const preloader = document.querySelector('.preloader');
+       
+        <div id="soundButton">
+            <div id="up">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-volume-up" viewBox="0 0 16 16">
+                <path d="M11.536 14.01A8.47 8.47 0 0 0 14.026 8a8.47 8.47 0 0 0-2.49-6.01l-.708.707A7.48 7.48 0 0 1 13.025 8c0 2.071-.84 3.946-2.197 5.303z"/>
+                <path d="M10.121 12.596A6.48 6.48 0 0 0 12.025 8a6.48 6.48 0 0 0-1.904-4.596l-.707.707A5.48 5.48 0 0 1 11.025 8a5.48 5.48 0 0 1-1.61 3.89z"/>
+                <path d="M10.025 8a4.5 4.5 0 0 1-1.318 3.182L8 10.475A3.5 3.5 0 0 0 9.025 8c0-.966-.392-1.841-1.025-2.475l.707-.707A4.5 4.5 0 0 1 10.025 8M7 4a.5.5 0 0 0-.812-.39L3.825 5.5H1.5A.5.5 0 0 0 1 6v4a.5.5 0 0 0 .5.5h2.325l2.363 1.89A.5.5 0 0 0 7 12zM4.312 6.39 6 5.04v5.92L4.312 9.61A.5.5 0 0 0 4 9.5H2v-3h2a.5.5 0 0 0 .312-.11"/>
+              </svg>
+            </div>
 
-const fadeEffect = setInterval(() => {
-  // if we don't set opacity 1 in CSS, then   //it will be equaled to "", that's why we   // check it
-  if (!preloader.style.opacity) {
-    preloader.style.opacity = 1;
+            <div id="down">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-volume-mute-fill" viewBox="0 0 16 16">
+                    <path d="M6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06m7.137 2.096a.5.5 0 0 1 0 .708L12.207 8l1.647 1.646a.5.5 0 0 1-.708.708L11.5 8.707l-1.646 1.647a.5.5 0 0 1-.708-.708L10.793 8 9.146 6.354a.5.5 0 1 1 .708-.708L11.5 7.293l1.646-1.647a.5.5 0 0 1 .708 0"/>
+                  </svg>
+            </div>
+        </div>
+
+        <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+            
+            <video autoplay loop  muted id="myVideo">
+               
+                <source src="/video/1.mp4" type="video/mp4">
+                
+          
+              </video>
+              
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                 <!-- <img src="./img/lckj1.jpg" alt="" width="100%" height="100%"> -->
+                <div class="container">
+                  <div class="carousel-caption text-start">
+                    <h1 style="font-family: monospace;">Welcome to Leo Club of Kathmandu Janmabhumi!</h1>
+                    <p class="">Embracing the spirit of service and community, we are dedicated to making a positive impact on society. Join us on this journey of compassion, collaboration, and change. Together, we strive to create a better world through meaningful social work.</p>
+                    <p><a class="btn btn-lg btn-primary" href="https://bit.ly/LeoClubOfKathmanduJanmabhumi">Join US</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!-- <img src="./img/lckj2.jpg" alt="" width="100%" height="100%"> -->
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h1>Our Mission</h1>
+                    <p>Driven by the values of leadership, empathy, and opportunity, Leo Club of Kathmandu Janmabhumi works tirelessly to address the pressing social issues of our time. Our mission is to foster positive change through community service, empowering the lives we touch. Together, we are building a legacy of kindness and compassion for a brighter future</p>
+                    <p><a class="btn btn-lg btn-primary" href="https://bit.ly/LeoClubOfKathmanduJanmabhumi">Learn more</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!-- <img src="./img/lckj.jpg" alt="" width="100%" height="100%"> -->
+                <div class="container">
+                  <div class="carousel-caption text-end">
+                    <h1> About Us</h1>
+                    <p>At Leo Club of Kathmandu Janmabhumi, we are more than just a social club – we are a force for good. Committed to serving our community, our club brings together passionate individuals who believe in the power of collective action. From organizing impactful events to supporting those in need, we stand united in our mission to make a lasting difference</p>
+                    <p><a class="btn btn-lg btn-primary" href="./pages/gallery.html">Browse gallery</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon carousel-btn" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon carousel-btn" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="sidebars.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/video.js"></script>
+    <script>
+         var ReportBtn=document.getElementById('ReportBtn');
+  ReportBtn.onclick=()=>{
+    window.open("https://drive.google.com/file/d/1QipuF_F31lWvIoq8j2-RrhO2tU21WgHn/preview","popup","width=auto, height=auto");
   }
-  if (preloader.style.opacity > 0) {
-    preloader.style.opacity -= 0.1;
-  } else {
-    clearInterval(fadeEffect);
-  }
-}, 200);
-
-window.addEventListener('load', fadeEffect);
-
-</script>
-<script>
-    setTimeout(abc,9000)
-    function abc() {
-        document.querySelector('.preloader').style.display = 'none';
-    }
-</script>
-
-<script>
-    mybutton = document.getElementById("myBtn");
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 190 || document.documentElement.scrollTop > 190) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
-</script>
-<script>
-  var ALERT_TITLE = "Janprakash !";
-var ALERT_BUTTON_TEXT = "Ok";
-
-if(document.getElementById) {
-window.alert = function(txt) {
-  createCustomAlert(txt);
-}
-}
-
-function createCustomAlert(txt) {
-d = document;
-
-if(d.getElementById("modalContainer")) return;
-
-mObj = d.getElementsByTagName("body")[0].appendChild(d.createElement("div"));
-mObj.id = "modalContainer";
-mObj.style.height = d.documentElement.scrollHeight + "px";
-
-alertObj = mObj.appendChild(d.createElement("div"));
-alertObj.id = "alertBox";
-if(d.all && !window.opera) alertObj.style.top = document.documentElement.scrollTop + "px";
-alertObj.style.left = (d.documentElement.scrollWidth - alertObj.offsetWidth)/2 + "px";
-alertObj.style.visiblity="visible";
-
-h1 = alertObj.appendChild(d.createElement("h1"));
-h1.appendChild(d.createTextNode(ALERT_TITLE));
-
-msg = alertObj.appendChild(d.createElement("p"));
-//msg.appendChild(d.createTextNode(txt));
-msg.innerHTML = txt;
-
-btn = alertObj.appendChild(d.createElement("a"));
-btn.id = "closeBtn";
-btn.appendChild(d.createTextNode(ALERT_BUTTON_TEXT));
-btn.href = "#";
-btn.focus();
-btn.onclick = function() { removeCustomAlert();return false; }
-
-alertObj.style.display = "block";
-
-}
-
-function removeCustomAlert() {
-document.getElementsByTagName("body")[0].removeChild(document.getElementById("modalContainer"));
-}
-</script>
-<script>
-  function reveal() {
-  var reveals = document.querySelectorAll(".reveal");
-
-  for (var i = 0; i < reveals.length; i++) {
-    var windowHeight = window.innerHeight;
-    var elementTop = reveals[i].getBoundingClientRect().top;
-    var elementVisible = 150;
-
-    if (elementTop < windowHeight - elementVisible) {
-      reveals[i].classList.add("active");
-    } else {
-      reveals[i].classList.remove("active");
-    }
-  }
-}
-
-window.addEventListener("scroll", reveal);
-</script>
-
-
+ 
+    </script>
 </body>
 
 </html>
