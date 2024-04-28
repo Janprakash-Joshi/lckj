@@ -37,3 +37,8 @@ showMenu.onclick = () => {
   
 
 };
+
+var ReportBtn=document.getElementById('ReportBtn');
+ReportBtn.onclick=()=>{
+  window.open("https://drive.google.com/file/d/1QipuF_F31lWvIoq8j2-RrhO2tU21WgHn/preview","popup","width=auto, height=auto");
+}
