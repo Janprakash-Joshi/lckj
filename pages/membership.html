@@ -394,6 +394,22 @@
 
         //contact form 
         document.getElementById('membershipForm').addEventListener('submit', function (event) {
+            Swal.fire({
+                title: "Processing!",
+                html: "sending.. <b></b>.",
+                timer: 5000,
+                timerProgressBar: true,
+                didOpen: () => {
+                  Swal.showLoading();
+                  const timer = Swal.getPopup().querySelector("b");
+                  timerInterval = setInterval(() => {
+                    timer.textContent = `${Swal.getTimerLeft()}`;
+                  }, 100);
+                },
+                willClose: () => {
+                  clearInterval(5000);
+                }
+            });
             event.preventDefault(); // Prevent the default form submission behavior
 
             // Get form data
@@ -410,7 +426,7 @@
                         Swal.fire({
                             icon: 'success',
                             title: 'Thank You ! We will contact you soon',
-                            timer: 3500
+                            timer: 4500
                         })
                         document.getElementById('customForm').reset();
                     } else {
