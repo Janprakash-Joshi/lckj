@@ -34,8 +34,13 @@
     <link href="../css/sidebars.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/gallery.css">
-
+    <link href="https://fonts.googleapis.com/css2?family=Mukti+Narrow&display=swap" rel="stylesheet">
     <style>
+       
+
+        .nepali-text {
+            font-family: 'Mukti Narrow', sans-serif;
+        }
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -271,7 +276,7 @@
 
 
                 <li>
-                    <a href="./membership.html" class="nav-link text-white">
+                    <a href="./membership.html" class="nav-link text-white" >
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-chat-heart pe-none me-2" viewBox="0 0 16 16">
                             <path fill-rule="evenodd"
@@ -328,8 +333,10 @@
 
             <center class="d-flex align-items-end">
                 <h1>Join Our Club</h1><img src="/img/lckj logo.png" alt="leoclubofkathmandujanmabhumi" width="100px">
+               
             </center>
-              <form id="membershipForm">
+            <span class="nepali-text">(Form भरि तलको 'Join Now' बटन थिच्नुहोस्)</span>
+            <form id="membershipForm">
                 <label for="name">Full Name</label>
                 <input type="text" id="name" name="Name" placeholder="Enter your full name" required>
 
@@ -366,8 +373,13 @@
                     <option value="O-">O-</option>
                 </select>
 
-                <label for="dob">Occupation </label>
+                <label for="occupation">Occupation </label>
                 <input type="text" id="occupation " name="Occupation " placeholder="Enter your occupation " required>
+                <label for="skills">  Do you have any specific skills ? </label>
+                <input type="text" id="skills " name="skills " placeholder="Enter your skills " required>
+
+                <label for="otherClubMember"> Are you currently a member of any other clubs ? </label>
+                <input type="text" id="otherClubMember " name="JoinedOtherClub " placeholder="Enter your answer " required>
 
                 <label for="reason">Why do you want to join?</label>
                 <textarea id="reason" name="Reason" rows="4" placeholder="Write your reason here..."
@@ -426,7 +438,7 @@
                         Swal.fire({
                             icon: 'success',
                             title: 'Thank You ! We will contact you soon',
-                            timer: 4500
+                            timer: 3500
                         })
                         document.getElementById('customForm').reset();
                     } else {
